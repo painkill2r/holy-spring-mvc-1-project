@@ -86,7 +86,7 @@ public class BasicItemController {
 
         // model.addAttribute("item", item); // @ModelAttibute를 통해 자동으로 Model에 추가됨으로 생략 가능.
 
-        return "basic/item";
+        return "redirect:/basic/items/" + item.getId();
     }
 
     /**
